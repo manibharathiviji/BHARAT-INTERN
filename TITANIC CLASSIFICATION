@@ -12,7 +12,7 @@ for dirname, _, filenames in os.walk('/kaggle/input'):
 
 
 
-train_pd = pd.read_csv("C:/Users/ambri/OneDrive/Desktop/python/train.csv")
+train_pd = pd.read_csv("C:\Users\MANIBHARATHI\Desktop")
 train_pd
 
 
@@ -127,7 +127,7 @@ model.score(train_X, train_Y)
 
 
 
-test_pd = pd.read_csv("C:/Users/ambri/OneDrive/Desktop/python/test.csv")
+test_pd = pd.read_csv("C:\Users\MANIBHARATHI\Desktop")
 test_pd
 
 
